@@ -1,0 +1,19 @@
+{
+  "name": "netlify-drop-demo-site-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dvtShea/netlfiy-drop-demo-site-master.git",
+  "author": "dvtShea <devriesthomasweb@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
